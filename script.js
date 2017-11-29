@@ -6,6 +6,6 @@ console.log(names);
 var newName = 'Sylwia'
 
 if(names.indexOf(newName) === -1) {
-  var x = names.push('Sylwia');
+  names.splice(0, 0, 'Sylwia');
 }
 console.log(names);
